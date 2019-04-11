@@ -1,0 +1,87 @@
+@import 'vars.scss';
+
+.main1-container {
+    margin-top: 40px;
+}
+
+.left-bar1 {
+    padding-left: 0;
+}
+
+.left-bar-flex-container {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+
+}
+
+.left-bar-contents {
+    margin: 20px 0;
+    text-align: left;
+}
+
+.first-left-bar {
+    background-color: #fff8c8;
+    position: relative;
+    height: 130px;
+}
+
+.first-left-bar:before {
+    content: "";
+    position: absolute;
+    right: 0; bottom: 0;
+    border: 15px solid;
+    border-color:rgb(235, 229, 74) white white rgb(235, 229, 74);
+}
+
+.hiring {
+    color: red;
+    font-weight: 600;
+    font-family: Franklin,helvetica,sans-serif;
+    font-size: 20px;
+    margin: 0;
+    text-align: center;
+}
+
+small {
+    padding: 10px;
+    font-size: 10px; 
+}
+
+.yellowText {
+    line-height: 2em;
+    font-size: small;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.join-us {
+    text-decoration: underline;
+    color: black ;
+}
+
+.left-p {
+    font-size: 15px;
+    color: $myBlue;
+}
+
+.second-left-bar {
+    border-top: 3px solid $myBlue;
+}
+
+.left-barP {
+    font-size: 1rem;
+    line-height: 1rem;
+    font-family: 'Serifa',georgia,serif;
+    font-weight: 700;
+    color: black;
+}
+
+.small-left {
+    font-size: .75rem;
+    line-height: 1.0625rem;
+    font-family: Franklin,helvetica,sans-serif;
+    font-weight: 700;
+    color: #3358d5;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+}

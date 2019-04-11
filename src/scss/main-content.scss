@@ -1,0 +1,62 @@
+@import 'vars.scss';
+
+.main-content1 {
+}
+.yogaMat {
+
+padding-left: 0;
+padding-right: 0;
+}
+
+.yogaMatImage {
+    width: 757px;
+    height: 480px;
+    // margin-left: 45px;
+}
+
+@media screen and (max-width: 1200px) {
+    .yogaMatImage {
+        width: 481px;
+        height: 482px;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .yogaMatImage {
+        width: 422px;
+        height: 482px;
+    }
+}
+
+.yoga-heading {
+    font-family: Serifa, georgia , serif;
+    font-weight: 800;
+    font-size: 2rem;
+    margin-top: 12px;
+}
+
+.belowYoga {
+    font-size: .9em;
+
+}
+
+.redText {
+    text-decoration: underline red;
+    color: red;
+    font-weight: 600;
+}
+
+.related {
+    color: $myBlue;
+    font-weight: 600;
+    font-size: .8em;
+    padding: 0;
+}
+
+.myMainPs {
+    font-size: 1rem;
+    line-height: 1rem;
+    font-family: 'Serifa',georgia,serif;
+    font-weight: 700;
+    color: black;
+}
